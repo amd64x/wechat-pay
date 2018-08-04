@@ -16,13 +16,9 @@
   "require" : {
     "php": ">=5.4.0"
   },
-  "require-dev": {
-    "topthink/framework": "^5.0.*",
-    "phpunit/phpunit": "4.8.*"
-  },
   "autoload": {
     "psr-4": {
-      "WxPay\\": "src/"
+      "WxPay\\": "src"
     }
   }
 }
