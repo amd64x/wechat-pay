@@ -1,0 +1,28 @@
+{
+  "name": "kelude/wechat-pay",
+  "description": "基于微信官方WxpayAPI_php_v3.0.9修改",
+  "type": "project",
+  "keywords": [
+    "WeChat Pay"
+  ],
+  "homepage": "https://github.com/kelude/wechat-pay",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "kelude",
+      "email": "mail@kelude.org"
+    }
+  ],
+  "require" : {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "topthink/framework": "^5.0.*",
+    "phpunit/phpunit": "4.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "WxPay\\": "src/"
+    }
+  }
+}
